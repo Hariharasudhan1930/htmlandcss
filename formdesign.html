@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0px;
+        }
+        header{
+            width: 100%;
+            height: 100px;
+            background-color: rgb(22, 236, 22);
+            text-align: justify;
+        }
+        h2{
+            padding: 5px;
+        }
+        nav{
+            margin-top: 50px;
+            width: 100%;
+            height: 50px;
+            background-color: bisque;
+        }
+        ul li{
+            height: 50px;
+            line-height: 50px;
+            list-style:lower-alpha;
+            display: inline;
+            margin-left: 0px;
+            margin-right: 30px;
+            font-size: 20px;
+        }
+        ul li:hover{
+            color: rgb(255, 141, 47);
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        label{
+            padding: 10px;
+        }
+        input[type="text"]{
+            padding: 5px;
+            margin-left: 10px;
+        }
+        input[type="number"]{
+            padding: 5px;
+            margin-left: 10px;
+        }
+        select{
+            padding: 10px;
+            margin-left: 10px;
+        }
+        input[type="date"]{
+            margin-left: 10px;
+        }
+        input[type="Rupees"]{
+            margin-left: 10px;
+        }
+        button{
+            margin-left: 10px;
+        }
+    </style>
+    <header>
+        <div>
+            <h2>Muthayammal College of Engineering</h2>
+        </div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Event</li>
+                <li>Student Page</li>
+                <li>Overall</li>
+            </ul>
+        </nav>
+    </header><br>
+    <br>
+    <br>
+    <br>
+    <label for="number">Register Number</label><br>
+        <input type="Number" name="Register Number" id="Register number" style="width:500px;height:20px" ><br>
+        <label for="Student name">Student Name</label><br>
+        <input type="text" name="Student Name" id="Student Name"style="width:500px;height:20px"><br>
+        <label for="Department">Department</label><br>
+        <input type="text" name="Department" id="Department"style="width:500px;height:20px"><br>
+        <label for="year">Year</label><br>
+        <select for="year" type="year"style="width:500px;height:20px">
+            <option>Choose an option</option>
+            <option value="I">I</option>
+            <option value="II">II</option>
+            <option value="III">III</option>
+            <option value="IV">IV</option>
+        </select><br>
+        <label for="Events">Events</label><br>
+        <select for="Events" type="text"style="width:500px;height:20px">
+            <option>Choose an option</option>
+            <option value="Symposium">Symposium</option>
+            <option value="Project Making">Project Making</option>
+            <option value="Sports">Sports</option>
+            <option value="Fun Event">Fun Event</option>
+        </select><br>
+        <label for="Events Date">Events Date</label><br>
+        <input type="date" name="date" min="05-07-2024"style="width:500px;height:20px"><br>
+        <label for="Amount">Amount</label><br>
+        <input type="Rupees" name="Amount" id="Rupees"style="width:500px;height:20px"><br>
+        <label for="Amount Status">Amount Status</label><br>
+        <select for="Amount Status" type="text"style="width:500px;height:20px">
+            <option>Choose an option</option>
+            <option value="Paid">Paid</option>
+            <option value="NOT Paid">NOT Paid</option>
+        </select><br>
+
+        <button type="submit">Submit</button>
+    
+</body>
+</html>
